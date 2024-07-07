@@ -1,4 +1,3 @@
-# Define your functions
 def get_size():
   res = input("What size drink do you want ? we have a \n[a] Small \n[b] Medium  \n[c] Large \n")
   if res == 'a':
@@ -10,8 +9,6 @@ def get_size():
   else:
     print_message()
     return get_size()
-
-
 
 
 def print_message():
@@ -49,8 +46,6 @@ def coffee_bot():
   print(size)
   print(drink_type)
   print("Alright, that's a {} {}!".format(size, drink_type))
-
-# Call coffee_bot()!
 
 coffee_bot()
 name = input("Can I get your name please? ")
